@@ -18,9 +18,34 @@ Total Earnings: $1184.38
 
  */
 
+import javax.swing.*;
+import java.text.DecimalFormat;
+
 public class SalesCommission {
 
+
+
+
+
+
+
     public static void main(String[] args) {
+
+        String input;
+        double payRate = 6.25;
+        double sales = 0;
+        double salesCount = 0;
+        double commission = 1.5;
+
+        DecimalFormat dollar = new DecimalFormat("#,###.00");
+        DecimalFormat percent = new DecimalFormat("#0%");
+
+        input = JOptionPane.showInputDialog("How many sales have you done? ");
+        sales = Double.parseDouble(input);
+
+
+
+
 
     }
 
